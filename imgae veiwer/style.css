@@ -1,0 +1,42 @@
+:root{
+    --font-main: 'Noto Sans', sans-serif;   
+    --bg-main: #131417;
+    --bg-card: #1e1f26;
+    --bg-stats: #131417;
+    --username: #b7bbc8;
+
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: var(--bg-main  );
+}
+p,h3{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    padding-left: 0;
+
+}
+ul li{
+    list-style-type: none;
+}
+.card{
+    max-width: 300px;
+    background: var(--bg-card);
+    margin: auto;
+    padding: 1em;
+
+}
+.card-thumbnail img{
+    max-width: 100%;
+
+}
+.card-avatar img{
+    height: 50px;
+    width: 50px;
+    
+}
